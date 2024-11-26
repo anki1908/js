@@ -11,10 +11,10 @@ accountPassword = "321654"
 accountCity = "Ahemdabad"
 
 
-console.log(accountId); 
+console.log(accountId);
 
 /*
 prefer not to use var because of issue in block scope & functinal block
 */
 
-console.table([accountId,accountEmail, accountPassword, accountCity, accountState]);
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
