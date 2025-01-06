@@ -36,4 +36,31 @@ function loginUserMessage(username) {
 
 //console.log(loginUserMessage("Ankita"))
 //console.log(loginUserMessage(""))
-console.log(loginUserMessage())
+//console.log(loginUserMessage())
+
+function calculateCartprice(val1, val2, ...numb1) {
+    return numb1
+}
+/// here ... is ised as rest operator which is working to built a budles of distributed things
+//console.log(calculateCartprice(200, 400, 500, 250, 2000));
+
+const user1 = {
+    username: "Ankita",
+    price: 199
+}
+
+function handleObject(anyObject) {
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+    
+}
+
+//handleObject(user1)
+
+const myNewArray = [200, 400, 600, 800]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+
+//console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 500, 400, 5000]));
