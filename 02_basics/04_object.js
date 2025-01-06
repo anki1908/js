@@ -29,7 +29,7 @@ const obj4 = {5: "a", 6: "b"}
 //const obj3 = Object.assign({}, obj1, obj2, obj4)
 
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+//console.log(obj3);
 
 const users = [
     {
@@ -47,10 +47,38 @@ const users = [
 ]
 
 users[1].email
-console.log(Wikki);
-console.log(Object.keys(Wikki));
-console.log(Object.values(Wikki));
-console.log(Object.entries(Wikki));
-console.log(Wikki.hasOwnProperty('isLoggedIn'));
-console.log(Wikki.hasOwnProperty('isLogged'));
+//console.log(Wikki);
+//console.log(Object.keys(Wikki));
+//console.log(Object.values(Wikki));
+//console.log(Object.entries(Wikki));
+//console.log(Wikki.hasOwnProperty('isLoggedIn'));
+//console.log(Wikki.hasOwnProperty('isLogged'));
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Ankita"
+}
+//console.log(course.courseInstructor);
+
+const { courseInstructor: instructor } = course
+
+console.log(instructor);
+
+//const navbar = ({company}) => {
+
+//}
+
+//navbar(company = "hitesh")
+
+//{
+//    "name": "ankita",
+//    "coursename": "js in hindi",
+//    "price" : "free"
+//}
+
+[
+    {}
+    {}
+    {}
+]
