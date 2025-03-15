@@ -17,3 +17,16 @@
 //}
 
 // if the log power line was written outside the if loop then the powee will be udefined but if the const power was var power than that value of power can be used outside the loop, that is why let is mostky used to declare a variable
+
+const userLoggedIn = true
+const debitCrad = true
+const userLoggedInfromGoogle = false
+const userLoggedInfromEmail = true
+
+if (userLoggedIn && debitCrad) {
+    console.log("Allow to buy courses");
+}
+
+if (userLoggedInfromEmail || userLoggedInfromGoogle) {
+    console.log("user logged In");
+}
